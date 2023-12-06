@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.cartContainer{
+    padding:40px 50px;
+    width: 100%;
+    background: #f1f1f1;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.cartContainer .emptyCart{
+    margin-top: 30px;
+    margin-left:40% ;
+}
+
+.cartContainer .emptyCart h2{
+    font-size: 32px;
+    color: #010f1c;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom:20px ;
+}
+
+.cartContainer .emptyCart .link{
+    margin-top:40px;
+    margin-left:55px;
+    text-decoration: none;
+    color:#fff;
+    padding:10px 20px;
+    background: #010f1c;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.cartContainer .emptyCart .link:hover{
+    background: #0989ff;
+}
+
+.cartContainer .contant{
+    max-width:100%;
+    padding:20px 30px;
+}
+
+.cartContainer .contant .cart_item{
+    padding: 20px 30px;
+    display:flex;
+    background:#fff;
+    border-radius: 5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.cartContainer .contant .cart_item .img-box{
+    padding:10px 20px;
+    background:#f1f1f1;
+}
+
+.cartContainer .contant .cart_item .img-box img{
+    width: 250px;
+    height: 300px;
+}
+
+.cartContainer .contant .cart_item .detail{
+    margin-left: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+
+.cartContainer .contant .cart_item .detail .info h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #d2d2d2;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+.cartContainer .contant .cart_item .detail .info h3{
+    margin-top: 20px;
+    color:#010f1c;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.cartContainer .contant .cart_item .detail .info p{
+    margin-top:10px;
+    color:#010f1c;
+    letter-spacing: 1px;
+}
+
+.cartContainer .contant .cart_item .detail .info .qty{
+    margin-top: 10px;
+    display: flex;
+}
+
+.cartContainer .contant .cart_item .detail .info .qty .incqty{
+    padding: 10px;
+    background: none;
+    outline: none;
+    border: none;
+    background: none;
+    color:#0989ff;
+    font-size: 30px;
+}
+
+.cartContainer .contant .cart_item .detail .info .qty .decqty{
+    padding: 10px;
+    background: none;
+    outline: none;
+    border: none;
+    background: none;
+    color:#0989ff;
+    font-size: 30px;
+}
+
+
+.cartContainer .contant .cart_item .detail .info .qty input{
+    border:none;
+    outline:none;
+    background:none;
+    font-size: 20px;
+    width:50px;
+    margin-left:20px;
+}
+
+
+.cartContainer .contant .cart_item .detail .info .subtotal{
+    color:#010f1c;
+    font-size: 17px;
+    margin-top:10px;
+}
+
+.cartContainer .contant .cart_item .detail .close{
+    margin-top: 10px;
+    margin-right: 0%;
+
+}
+
+.cartContainer .contant .cart_item .detail .close button{
+    border: none;
+    outline: none;
+    background: none;
+    color:#db0045;
+    font-size:24px;
+    cursor: pointer;
+}
+
+.cartContainer .totalPrice{
+    margin-top:20px;
+    margin-left: 48%;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cartContainer .checkout{
+    margin-top: 20px;
+    margin-left: 50%;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #0989ff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}

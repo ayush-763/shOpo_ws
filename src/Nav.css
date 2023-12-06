@@ -1,0 +1,132 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+.anc{
+    padding: 10px 30px;
+    width:100%;
+    background: #010f1c;
+    display: flex;
+    justify-content: center;
+}
+
+.anc .icon{
+    color: #f3b123;
+    font-size: 32px;
+}
+
+.navbar{
+    padding:30px 40px;
+    width: 100%;
+    border-bottom: 1px solid #010f1c;
+
+}
+
+.navbar .container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar .container .search-box{
+    margin-right: 30px;
+}
+
+.navbar .container .search-box input{
+    outline: none;
+    border: 2px solid #0989ff; 
+    padding: 10px 30px;
+    /* margin: 20px; */
+    /* border-radius: 25px; */
+}
+
+.navbar .container .search-box button{
+    outline:none;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    padding: 10px 25px;
+    color:#fff;
+    background-color: #0989ff;
+    border: 2px solid #0989ff;
+}
+
+.navbar .container .icon{
+    display:flex;
+    margin-right:50px;
+}
+.navbar .container .icon .account{
+    display: flex;
+    margin-right: 20px;
+}
+
+.navbar .container .icon .account p{
+    margin-right: 5px;
+    margin-top:2px;
+}
+
+.navbar .container .icon .account .user-icon{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #010f1c;
+    cursor: pointer;
+}
+
+.navbar .container .icon .second_icon{
+    display: flex;
+}
+
+.navbar .container .icon .second_icon .link{
+    margin-right:5px;
+    font-size: 22px;
+    cursor: pointer;
+    color:#0989ff;
+}
+
+.navigate{
+    padding:20px 30px;
+    width:100%;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
+}
+
+.navigate .container{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.navigate .container .nav ul{
+    display: flex;
+}
+
+.navigate .container .nav ul li{
+    margin-left:20px;
+    list-style: none;
+}
+
+.navigate .container .nav ul li .link{
+    text-decoration: none;
+    color:#010f1c;
+}
+.navigate .container .nav ul li .link:hover{
+    color: #0989ff;
+}
+
+.navigate .container .auth button{
+    margin-right:20px;
+    font-size: 22px;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    background:none; 
+}
+
+.anc p{
+    color:#fff;
+    margin-left:10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
